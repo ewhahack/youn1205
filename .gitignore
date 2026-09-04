@@ -1,0 +1,18 @@
+# ===== 대회 제공 데이터(대용량) — 대회 페이지에서 각자 받으세요 =====
+open/dev.jsonl.gz
+open/dev_labels.csv
+open/sample_submission.csv
+open/data/*
+!open/data/*.md
+# ↑ open/data/ 안은 전부 무시하되, 우리가 만든 리포트(.md)만 예외로 살림
+
+# ===== 실행 결과물 / 생성 파일 =====
+open/output/
+open/submit.zip
+open/rag_baseline_run.ipynb
+**/__pycache__/
+*.pyc
+
+# ===== OS / 툴링 =====
+.DS_Store
+.claude/
